@@ -226,10 +226,10 @@ Quantity Quantity::KSI              (145.038       ,Unit(-1,1,-2)); // 1000 x po
 Quantity Quantity::Watt             (1e+6          ,Unit(2,1,-3));  // Watt (kg*m^2/s^3) 
 Quantity Quantity::VoltAmpere       (1e+6          ,Unit(2,1,-3));  // VoltAmpere (kg*m^2/s^3) 
 
-Quantity Quantity::Joule            (1e+6          ,Unit(2,1,-2));  // Joule (kg*m^2/s^2) 
-Quantity Quantity::NewtonMeter      (1e+6          ,Unit(2,1,-2));  // Joule (kg*m^2/s^2) 
-Quantity Quantity::VoltAmpereSecond (1e+6          ,Unit(2,1,-2));  // Joule (kg*m^2/s^2) 
-Quantity Quantity::WattSecond       (1e+6          ,Unit(2,1,-2));  // Joule (kg*m^2/s^2) 
+Quantity Quantity::Joule            (1.0e+6          ,Unit(2,1,-2));  // Joule (kg*m^2/s^2)
+Quantity Quantity::NewtonMeter      (1.0e+6          ,Unit(2,1,-2));  // Joule (kg*m^2/s^2) 
+Quantity Quantity::VoltAmpereSecond (1.0e+6          ,Unit(2,1,-2));  // Joule (kg*m^2/s^2) 
+Quantity Quantity::WattSecond       (1.0e+6          ,Unit(2,1,-2));  // Joule (kg*m^2/s^2) 
 
 Quantity Quantity::KMH              (277.778       ,Unit(1,0,-1));  // km/h 
 Quantity Quantity::MPH              (447.04        ,Unit(1,0,-1));  // Mile/h 
